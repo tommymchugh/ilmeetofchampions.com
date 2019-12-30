@@ -890,8 +890,9 @@ footer > p {
 }
 
 .sponsors-info {
-  height: 500px;
+  min-height: 500px;
   width: 100%;
+  padding-bottom: 20px;
   background-position: top center;
   background-size: cover;
 }
@@ -968,4 +969,31 @@ footer > div > input {
   border-bottom: 0.3rem solid transparent;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.sponsors-info > h2 {
+  margin: 0 auto;
+  max-width: 810px;
+  font-size: 15px;
+  color: #1d120c;
+  text-align: center;
+  line-height: 33px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+  padding-bottom: 18px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.fleet-feet-logo {
+  width: 270px;
+  margin: 20px auto;
+  display: block;
+}
+
+.under-armour-logo {
+  width: 100px;
+  margin: 30px auto;
+  display: block;
 }

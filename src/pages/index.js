@@ -8,7 +8,9 @@ import backgroundImage from "../images/bg.jpg"
 import illinoisFeature from "../images/illinois-feature.svg"
 import runnerImage from "../images/runner.jpg"
 import underArmourLogo from "../images/under-armour.svg"
+import underArmourLogoSolo from "../images/under-armour-solo.svg"
 import hurdlesImage from "../images/sprinters.jpg"
+import fleetFeetLogo from "../images/fleet-feet.png"
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 
 const defaultMapOptions = {
@@ -109,7 +111,7 @@ const IndexPage = () => (
         <h2>
           <span className="stay-tuned">Stay tuned for the schedule and registration information for the 2020 edition of the Illinois Meet of Champions.</span>
           The meet will field championship competitions for every high school track event including: 
-          <span className="events">Long Jump, Pole Vault, High Jump, Shot Put, Triple Jump, Discus, 3200m, 100 High Hurdles, 100m, 800m, 400m, 300 Low Hurdles, 1600m, and 200m.</span>
+          <span className="events">Long Jump, Pole Vault, High Jump, Shot Put, Triple Jump, Discus, 3200m, 100m High Hurdles, 100m, 800m, 400m, 300m Low Hurdles, 1600m, and 200m.</span>
           Championship entries will be selected using the MileSplit Illinois Top Times list for each event.
           <br />
           There will be a limited number of small open competitions.
@@ -122,6 +124,10 @@ const IndexPage = () => (
       backgroundImage: `url(${hurdlesImage})`
     }} className="sponsors-info">
       <h1 className="header-text">Sponsors & Support</h1>
+      <a href="https://www.underarmour.com/"><img className="under-armour-logo" src={`${underArmourLogoSolo}`}/></a>
+      <h2>Under Armour will be supporting the meet with gear for the championship athletes. Details on gear coming soon!</h2>
+      <a href="https://www.fleetfeet.com/"><img className="fleet-feet-logo" src={`${fleetFeetLogo}`}/></a>
+      <h2>Fleet Feet Sports will also be supporting the event with hydration at the meet as well as additional items to be announced.</h2>
     </section>
   </Layout>
 )
