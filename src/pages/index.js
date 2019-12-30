@@ -11,10 +11,20 @@ import underArmourLogo from "../images/under-armour.svg"
 import hurdlesImage from "../images/sprinters.jpg"
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 
+const defaultMapOptions = {
+  zoomControl: false,
+  mapTypeControl: false,
+  scaleControl: false,
+  streetViewControl: false,
+  rotateControl: false,
+  fullscreenControl: false
+};
+
 const MyMapComponent = withScriptjs(withGoogleMap((props) =>
   <GoogleMap
     defaultZoom={15}
     defaultCenter={{ lat: 41.872377, lng: -87.692387 }}
+    defaultOptions={defaultMapOptions}
   >
     {props.isMarkerShown && <Marker position={{ lat: 41.872377, lng: -87.692387 }} />}
   </GoogleMap>
@@ -22,10 +32,11 @@ const MyMapComponent = withScriptjs(withGoogleMap((props) =>
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Illinois Meet of Champions" />
     <section className="wall" style={{
       backgroundImage: `url(${backgroundImage})`,
       backgroundSize: `cover`,
+      backgroundPosition: `center top`,
       position: `relative`
     }}>
       <div className="logo">
@@ -62,11 +73,12 @@ const IndexPage = () => (
       <h1 className="header-text">Venue</h1>
       <MyMapComponent
         isMarkerShown
-        googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
-        loadingElement={<div style={{ height: `300px`, width: `430px`, margin: `0 auto` }} />}
-        containerElement={<div style={{ height: `300px`, width: `430px`, margin: `0 auto` }} />}
+        googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyAOvdmUMPPWVCWwF0rWiKlWRBG7SdeVcKE"
+        loadingElement={<div style={{ height: `300px`, width: `100%`, maxWidth: `430px`, paddingLeft: `20px`, paddingRight: `20px`, margin: `0 auto` }} />}
+        containerElement={<div style={{ height: `300px`, width: `100%`, maxWidth: `430px`, paddingLeft: `20px`, paddingRight: `20px`, margin: `0 auto` }} />}
         mapElement={<div style={{ height: `300px`,
-                                  width: `430px`,
+                                  width: `100%`,
+                                  maxWidth: `430px`,
                                   margin: `0 auto`,
                                   borderRadius: `120%`,
                                   overflow: `hidden`,
@@ -77,7 +89,7 @@ const IndexPage = () => (
         We are excited to host this championship at the Hope Academy Track Stadium on a PROTRAXX™ Premier IAAF track certified by Connor Sports. 
         This is an unrivaled surface and venue, making it prime conditions for your new PR.
       </h2>
-      <a href="#">Get Directions</a>
+      <a href="https://www.google.com/maps/dir//2661+W+Lexington+St,+Chicago,+IL+60612/@41.8719394,-87.6912627,824m/data=!3m1!1e3!4m9!4m8!1m0!1m5!1m1!1s0x880e2d66aa81ed2b:0xb4c79e3a6390147f!2m2!1d-87.692488!2d41.871737!3e0">Get Directions</a>
     </section>
     
     <section className="meet-info-results">

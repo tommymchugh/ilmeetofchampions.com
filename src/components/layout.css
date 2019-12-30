@@ -638,6 +638,7 @@ main {
 
 .wall {
   width: 100%;
+  max-height: 740px;
   height: calc(100% - 54px);
 }
 
@@ -655,7 +656,8 @@ main {
 }
 
 .wall > .logo {
-  width: 700px;
+  width: calc(100% - 30px);
+  max-width: 700px;
   top: 0;
   height: 298px;
   bottom: 0;
@@ -666,7 +668,7 @@ main {
 }
 
 .wall > img {
-  height: 45px;
+  height: 50px;
   position: absolute;
   bottom: 0;
   margin-left: 26px;
@@ -677,6 +679,65 @@ main {
   font-size: 26px;
   color: #1E2B54;
   margin-bottom: 12px;
+}
+
+@media (max-width: 546px) { 
+  .wall > img {
+    height: 45px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wall {
+    height: 550px;
+  }
+  
+  .wall > .logo {
+    position: relative;
+    padding-top: 100px;
+    max-width: calc(100% - 30px) !important;
+  }
+  
+  .wall > .cover > div {
+    visibility: hidden;
+  }
+}
+
+@media (max-height: 498px) { 
+  .wall > .logo {
+    position: relative;
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 878px) { 
+  .wall > .logo {
+    width: calc(100% - 30px);
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 672px) { 
+  .wall > .logo {
+    width: calc(100% - 30px);
+    max-width: 400px;
+  }
+  .wall > .logo > h1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 516px) { 
+  .wall > .logo > h1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 356px) { 
+  .wall > .logo > h1 {
+    font-size: 13px;
+  }
 }
 
 .wall > .logo > h1 > span {
