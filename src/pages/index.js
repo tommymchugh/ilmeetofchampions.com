@@ -105,10 +105,10 @@ const IndexPage = () => (
       <div className="fill">
         <h1 className="header-text">Meet Info & Registration</h1>
         <h2>
-          <span className="stay-tuned">Stay tuned for the schedule and registration information for the 2020 edition of the Illinois Meet of Champions.</span>
+          <span className="stay-tuned">Stay tuned for schedule and registration information for the 2020 edition of the Illinois Meet of Champions.</span>
           The meet will field championship competitions for every high school track event including: 
           <span className="events">Long Jump, Pole Vault, High Jump, Shot Put, Triple Jump, Discus, 3200m, 100m High Hurdles, 100m, 800m, 400m, 300m Low Hurdles, 1600m, and 200m.</span>
-          Championship entries will be selected using the MileSplit Illinois Top Times list for each event.
+          Championship invitations will be selected using the MileSplit Illinois Top Times list for each event.
           <br />
           There will be a limited number of small open competitions.
           <br />More details to come!
