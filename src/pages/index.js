@@ -48,10 +48,6 @@ const IndexPage = () => (
         <LogoImage />
       </div>
       
-      <div className="details">
-        <p>There will be limited open race spaces.<br />Share the meet to be first to know registration details.</p>
-      </div>
-      
       <img src={`${underArmourLogo}`}/>
     
       <div className="cover" style={{
@@ -71,7 +67,7 @@ const IndexPage = () => (
       <h1>We are assembling the top athletes from every class to compete to be the true champion of Illinois Track & Field.</h1>
     </section>
     
-    <section className="venue-info">
+    <section id="venue" className="venue-info">
       <h1 className="header-text">Venue</h1>
       <MyMapComponent
         isMarkerShown
@@ -94,7 +90,7 @@ const IndexPage = () => (
       <a href="https://www.google.com/maps/dir//2661+W+Lexington+St,+Chicago,+IL+60612/@41.8719394,-87.6912627,824m/data=!3m1!1e3!4m9!4m8!1m0!1m5!1m1!1s0x880e2d66aa81ed2b:0xb4c79e3a6390147f!2m2!1d-87.692488!2d41.871737!3e0">Get Directions</a>
     </section>
     
-    <section className="meet-info-results">
+    <section id="meet-info" className="meet-info-results">
       <div className="feature-image" style={{
         minHeight: `440px`,
         margin: `0`,
@@ -120,14 +116,14 @@ const IndexPage = () => (
       </div>
     </section>
     
-    <section style={{
+    <section id="support" style={{
       backgroundImage: `url(${hurdlesImage})`
     }} className="sponsors-info">
       <h1 className="header-text">Sponsors & Support</h1>
       <a href="https://www.underarmour.com/"><img className="under-armour-logo" src={`${underArmourLogoSolo}`}/></a>
       <h2>Under Armour will be supporting the meet with gear for the championship athletes. Details on gear coming soon!</h2>
       <a href="https://www.fleetfeet.com/"><img className="fleet-feet-logo" src={`${fleetFeetLogo}`}/></a>
-      <h2>Fleet Feet Sports will also be supporting the event with hydration at the meet as well as additional items to be announced.</h2>
+      <h2>Fleet Feet Sports will also be supporting with hydration at the meet as well as additional items to be announced.</h2>
     </section>
   </Layout>
 )

@@ -8,21 +8,17 @@ const Header = ({ siteTitle }) => (
       background: `rgb(82,102,118)`,
       background: `linear-gradient(90deg, rgba(82,102,118,0) 0%, rgba(112,137,156,1) 100%)`,
       marginBottom: `1.45rem`,
-      position: `absolute`,
       width: `100%`,
       zIndex: `1000`,
       height: `69px`
     }}
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      
-    </div>
+  <ul>
+    <li><a href="#stay-updated">Stay Updated</a></li>
+    <li><a href="#support">Support</a></li>
+    <li><a href="#meet-info">Meet Info</a></li>
+    <li><a href="#venue">Venue</a></li>  
+  </ul>
   </header>
 )
 

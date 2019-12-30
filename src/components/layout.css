@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif;
+  font-family: 'Barlow', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   height: 100%;
@@ -203,7 +203,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -233,8 +233,7 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -250,8 +249,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -267,8 +265,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -284,8 +281,7 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -301,8 +297,7 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -318,8 +313,7 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -672,6 +666,7 @@ main {
   position: absolute;
   bottom: 0;
   margin-left: 26px;
+  opacity: .8;
   margin-bottom: 17px;
 }
 
@@ -690,7 +685,7 @@ main {
     margin-right: auto;
   }
   .wall {
-    height: 550px;
+    height: 400px;
   }
   
   .wall > .logo {
@@ -792,6 +787,38 @@ main {
   padding-bottom: 10px;
 }
 
+.venue-info > a:hover {
+  color: #6373a5;
+  background: #131b36;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+header > ul > li {
+  font-weight: bold;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  margin-right: 25px;
+  float: right;
+  margin-top: 18px;
+  color: #1e2b54;
+}
+
+header > ul > li > a:hover {
+  color: #93adff;
+}
+
+header > ul > li > a {
+  color: inherit;
+  transition: all .2s;
+  text-decoration: none;
+}
+
 .venue-info > a {
   display: block;
   text-align: center;
@@ -802,8 +829,9 @@ main {
   padding-bottom: 7px;
   text-decoration: none;
   border-radius: 3px;
-  font-family: helvetica;
+  font-family: 'Barlow', sans-serif;
   color: #131b36;
+  transition: all .4s;
   font-size: 16.5px;
   margin-bottom: 5px;
   font-weight: 500;
@@ -870,7 +898,7 @@ footer {
 
 footer > p {
   text-align: center;
-  font-family: helvetica;
+  font-family: 'Barlow', sans-serif;
   
 }
 
@@ -897,6 +925,11 @@ footer > p {
   background-size: cover;
 }
 
+button {
+  outline: none !important;
+  cursor: pointer;
+}
+
 .sponsors-info > h1 {
   color: #442a1a;
 }
@@ -906,17 +939,23 @@ footer > div {
   margin: 0 auto;
 }
 
+footer > div > button:hover {
+  background: #4a5e9c;
+  color: #121727;
+}
+
 footer > div > button {
   margin: 17px auto;
   display: block;
-  background: #4a5e9c;
-  color: #abbfff;
-  font-family: helvetica;
+  color: #4a5e9c;
+  font-family: 'Barlow', sans-serif;
   width: 139px;
+  background: transparent;
   padding-top: 10px;
   padding-bottom: 10px;
-  border: none;
+  border: 1px solid #4a5e9c;
   border-radius: 3px;
+  transition: all .4s;
 }
 
 footer > .copyright {
@@ -945,13 +984,13 @@ footer > h1 {
 }
 
 footer > div > div {
-  font-family: helvetica;
+  font-family: 'Barlow', sans-serif;
   padding-bottom: 10px;
   text-align: center;
 }
 
 footer > div > input {
-  font-family: helvetica, sans-serif;
+  font-family: 'Barlow', sans-serif;
   color: #333;
   outline: none;
   font-size: 18px;

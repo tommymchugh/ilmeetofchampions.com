@@ -38,11 +38,11 @@ const Layout = ({ children }) => {
       >
         <main>
           {children}
-          <footer>
+          <footer id="stay-updated">
             <h1 className="header-text">Sign Up For Updates</h1>
             <SimpleForm />
             <p className="copyright">© {new Date().getFullYear()} Illinois Meet of Champions</p>
-            <p className="builtby">Built By Tommy McHugh</p>
+            <p className="builtby">Site Developed By Tommy McHugh</p>
           </footer>
         </main>
       </div>
