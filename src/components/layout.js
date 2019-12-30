@@ -8,9 +8,14 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import MailchimpSubscribe from "react-mailchimp-subscribe"
 
 import Header from "./header"
 import "./layout.css"
+
+const subscribeUrl = "https://ilmeetofchampions.us4.list-manage.com/subscribe/post?u=787e94e423b7be0471d047b4b&amp;id=c807e8eb73";
+
+const SimpleForm = () => <MailchimpSubscribe url={subscribeUrl}/>
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -28,18 +33,18 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
+          height: `100%`
         }}
       >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <main>
+          {children}
+          <footer>
+            <h1 className="header-text">Sign Up For Updates</h1>
+            <SimpleForm />
+            <p className="copyright">© {new Date().getFullYear()} Illinois Meet of Champions</p>
+            <p className="builtby">Built By Tommy McHugh</p>
+          </footer>
+        </main>
       </div>
     </>
   )
