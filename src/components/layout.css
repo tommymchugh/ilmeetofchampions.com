@@ -735,6 +735,14 @@ main {
   }
 }
 
+@media (max-width: 364px) { 
+  header > ul > li {
+    font-size: 15px;
+    margin-right: 10px !important;
+    
+  }
+}
+
 .wall > .logo > h1 > span {
   font-weight: 400;
 }
@@ -795,6 +803,14 @@ main {
 header {
   position: fixed;
   width: 100%;
+}
+
+header > ul {
+  width: calc(100%);
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  
 }
 
 header > ul > li {
