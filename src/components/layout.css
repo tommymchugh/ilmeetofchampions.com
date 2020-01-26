@@ -818,7 +818,7 @@ main {
   padding-bottom: 10px;
 }
 
-.venue-info > a:hover {
+.venue-info > .link:hover {
   color: #6373a5;
   background: #131b36;
 }
@@ -862,7 +862,7 @@ header > ul > li > a {
   text-decoration: none;
 }
 
-.venue-info > a {
+.venue-info > .link {
   display: block;
   text-align: center;
   width: 138px;
@@ -998,6 +998,14 @@ footer > p {
 }
 
 #north {
+  min-height: 700px;
+  width: 100%;
+  padding-bottom: 20px;
+  background-position: center center;
+  background-size: cover;
+}
+
+#faq {
   min-height: 700px;
   width: 100%;
   padding-bottom: 20px;

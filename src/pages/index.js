@@ -14,6 +14,7 @@ import fleetFeetLogo from "../images/fleet-feet.png"
 import chicagoSpeedLogo from "../images/chicagospeed.svg"
 import dtcLogo from "../images/dtc.png"
 import northBack from "../images/loop.jpg"
+import faq from "../images/faq.jpg"
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 
 const defaultMapOptions = {
@@ -72,7 +73,8 @@ const IndexPage = () => (
     
     <section id="venue" className="venue-info">
       <h1 className="header-text">Venue</h1>
-      <MyMapComponent
+      <a href="https://www.google.com/maps/dir//2661+W+Lexington+St,+Chicago,+IL+60612/@41.8719394,-87.6912627,824m/data=!3m1!1e3!4m9!4m8!1m0!1m5!1m1!1s0x880e2d66aa81ed2b:0xb4c79e3a6390147f!2m2!1d-87.692488!2d41.871737!3e0">
+        <MyMapComponent
         isMarkerShown
         googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyAOvdmUMPPWVCWwF0rWiKlWRBG7SdeVcKE"
         loadingElement={<div style={{ height: `300px`, width: `100%`, maxWidth: `430px`, paddingLeft: `20px`, paddingRight: `20px`, margin: `0 auto` }} />}
@@ -85,12 +87,12 @@ const IndexPage = () => (
                                   overflow: `hidden`,
                                   marginTop: `14px`,
                                   marginBottom: `30px` }} />}
-      />
+      /></a>
       <h2>
         We are excited to host this championship at the Hope Academy Track Stadium on a PROTRAXX™ Premier IAAF track certified by Connor Sports. 
         This is an unrivaled surface and venue, making it prime conditions for your new PR.
       </h2>
-      <a href="https://www.google.com/maps/dir//2661+W+Lexington+St,+Chicago,+IL+60612/@41.8719394,-87.6912627,824m/data=!3m1!1e3!4m9!4m8!1m0!1m5!1m1!1s0x880e2d66aa81ed2b:0xb4c79e3a6390147f!2m2!1d-87.692488!2d41.871737!3e0">Get Directions</a>
+      <a className="link" href="https://www.google.com/maps/dir//2661+W+Lexington+St,+Chicago,+IL+60612/@41.8719394,-87.6912627,824m/data=!3m1!1e3!4m9!4m8!1m0!1m5!1m1!1s0x880e2d66aa81ed2b:0xb4c79e3a6390147f!2m2!1d-87.692488!2d41.871737!3e0">Get Directions</a>
     </section>
     
     <section id="meet-info" className="meet-info-results">
@@ -124,7 +126,7 @@ const IndexPage = () => (
     }} className="sponsors-info">
       <h1 className="header-text">Sponsors & Support</h1>
       <a href="https://www.underarmour.com/"><img className="under-armour-logo" src={`${underArmourLogoSolo}`}/></a>
-      <h2>Under Armour will be supporting the meet with gear for the championship athletes. Details on gear coming soon!</h2>
+      <h2>Under Armour will be sponsoring the meet with gear for the championship athletes. Details on gear coming soon!</h2>
       <a href="https://www.fleetfeet.com/"><img className="fleet-feet-logo" src={`${fleetFeetLogo}`}/></a>
       <h2>Fleet Feet Sports will also be supporting with hydration at the meet as well as additional items to be announced.</h2>
       <div className="other-sponsors">
@@ -143,6 +145,11 @@ const IndexPage = () => (
         North Lawndale is one of the most architecturally eccentric and socially complex neighborhoods in Chicago. The area has gone through many cultural shifts, beginning with its origins as a largely Italian and Irish population at its inception in the mid-1800s. In, the early 1900s, Lawndale became the third largest Jewish community in the world. Following World War II, the neighborhood transitioned to become the first African-American community on Chicago’s west side. As a community experiencing frequent waves of migrants and cultures, Lawndale was a testing ground for ideas and activism. Its residents provided important contributions to Zionism, civil rights, housing policies, industrial psychology and scientific management, community organizing and the Black Power movement. In addition to its significant social and historical assets, Lawndale has an incredible “built environment” that has been celebrated by a number of architectural and historical advocacy groups. Several charter schools have opened in an effort to enhance the community’s educational infrastructure. North Lawndale’s proximity to Chicago’s Loop, the University of Illinois at Chicago, the Illinois Medical District, and other important Chicago institutions makes it a highly desirable location for investment, both residentially and commercially. North Lawndale is also the “buckle on the Greystone belt”, containing a high concentration of historic homes with limestone facades. NHS has recently launched the Historic Chicago Greystone Initiative ® in North Lawndale, a project which promotes the documentation, preservation, and repair of these beautiful buildings.
         </p>
       </div>
+    </section>
+
+    <section id="faq" style={{
+      backgroundImage: `url(${faq})`
+    }}>
     </section>
   </Layout>
 )
