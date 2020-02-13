@@ -73,7 +73,7 @@ const IndexPage = () => (
     
     <section id="venue" className="venue-info">
       <h1 className="header-text">Venue</h1>
-      <a href="https://www.google.com/maps/dir//2661+W+Lexington+St,+Chicago,+IL+60612/@41.8719394,-87.6912627,824m/data=!3m1!1e3!4m9!4m8!1m0!1m5!1m1!1s0x880e2d66aa81ed2b:0xb4c79e3a6390147f!2m2!1d-87.692488!2d41.871737!3e0">
+      <a href="https://www.google.com/maps/place/721+S+Washtenaw+Ave,+Chicago,+IL+60612/@41.8720093,-87.6947204,17z">
         <MyMapComponent
         isMarkerShown
         googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyAOvdmUMPPWVCWwF0rWiKlWRBG7SdeVcKE"
@@ -90,9 +90,9 @@ const IndexPage = () => (
       /></a>
       <h2>
         We are excited to host this championship at the Hope Academy Track Stadium on a PROTRAXX™ Premier IAAF track certified by Connor Sports. 
-        This is an unrivaled surface and venue, making it prime conditions for your new PR.
+        This is an unrivaled surface and venue, making it prime conditions for your new PR. The stadium is located at 721 S Washtenaw Ave, Chicago, IL 60612.
       </h2>
-      <a className="link" href="https://www.google.com/maps/dir//2661+W+Lexington+St,+Chicago,+IL+60612/@41.8719394,-87.6912627,824m/data=!3m1!1e3!4m9!4m8!1m0!1m5!1m1!1s0x880e2d66aa81ed2b:0xb4c79e3a6390147f!2m2!1d-87.692488!2d41.871737!3e0">Get Directions</a>
+      <a className="link" href="https://www.google.com/maps/place/721+S+Washtenaw+Ave,+Chicago,+IL+60612/@41.8720093,-87.6947204,17z">Get Directions</a>
     </section>
     
     <section id="meet-info" className="meet-info-results">
@@ -112,10 +112,10 @@ const IndexPage = () => (
         <h2>
           <span className="stay-tuned">Stay tuned for schedule and registration information for the 2020 edition of the Illinois Meet of Champions.</span>
           The meet will field championship competitions for every high school track event including: 
-          <span className="events">Long Jump, Pole Vault, High Jump, Shot Put, 3200m, 100m High Hurdles, 100m, 800m, 400m, and 200m.</span>
+          <span className="events">100, 110 Hurdles, 400, 800, 3200, Pole Vault, High Jump, Long Jump, and Shot Put.</span>
           Championship invitations will be selected using the MileSplit Illinois Top Times list for each event.
           <br />
-          There will be a limited number of small open competitions.
+          There will be a limited number of spaces available for an exhibition 2k steeplechase and coed 4x400.
           <br />More details to come!
         </h2>
       </div>
@@ -150,6 +150,46 @@ const IndexPage = () => (
     <section id="faq" style={{
       backgroundImage: `url(${faq})`
     }}>
+      <h1>Frequently Asked Questions</h1>
+      <p>
+        <span><span>Timing</span>Fully Automatic Timing (FAT) provided by Illinois Prep Top Timing</span>
+
+        <span><span>Spikes</span>1/4 inch only</span> 
+
+        <span><span>Awards</span> Every athlete in a championship race will receive Under Armour gear including competition attire, shoes, backpacks and other gear.  Additionally, top three in each event will receive a medal. 
+        </span>
+        <span><span>Registration</span>Stay tuned for information regarding registration for 2020 IL Meet of Champions.  All registration will be done on-line.  Payment will not be accepted at the meet.  There will be no refunds.
+        </span>
+        <span><span>Open Sections</span>The 2020 meet will include open sections of several sprint and distance events.  Any high school athlete in IL is eligible to enter, though field size will be limited, and the athletes with the top times (based upon Milesplit times) in those events will gain entry to the Championship Section.
+        </span>
+        <span><span>Championship Section</span>The IL Meet of Champions is comprised of the top section in each distance and will be selected based upon top times from the season.  These races are the marquee events and will be used to crown the best in IL.
+        </span>
+        <span><span>Heatsheets</span>Heatsheets will be posted by 8:00pm the Thursday preceding the race.  They will be posted both on this site and on Milesplit.  We encourage you to print a copy as we will only have a small number available on race day.  
+        </span>
+        <span><span>Admission</span>TBD
+        </span>
+        <span><span>Parking</span>There will be limited parking in secure lots for $5.00 on site and immediately to the South of the track. Free Street parking is also available.
+        </span>
+        <span><span>Age Groups</span>High School only
+        </span>
+        <span><span>Order of Events</span>100m, 110m Hurdles, 400m, 800m, 2km steeplechase, 3200m, and co-ed 4x400m relay <br />
+        For each event the open race will compete first and the championship race will follow afterwards if there is one for that event.
+        </span>
+        <span><span>Packet Pickup</span>Packets will be picked up at meet.  A table will be set up as you enter the track with bibs. Packets must be picked up 30 minutes prior to the start of the event.  A photo ID or current USATF card is required for all individual athletes and / or parents picking up a packet.
+        </span>
+        <span><span>Waiver and Release</span>A waiver will be completed and signed on-line prior to packet pickup.  More information to come on this topic.
+        </span>
+        <span><span>Timing of Events</span>Stay tuned for a detailed meet schedule!
+        </span>
+        <span><span>Accommodations in the Area</span>Stay tuned.  The Meet of Champions is working with hotels in the area for group rates.
+        </span>
+        <span><span>Concession Stand</span>There will be a concession stand run by Hope Academy.  No food or drinks, with the exception of water, will be allowed on the infield.
+        </span>
+        <span><span>Bathrooms / Locker Rooms</span>There will be bathroom facilities at the track but these will be limited.  There are no locker rooms.
+        </span>
+        <span><span>Additional Questions</span>Please email Dan Daly (dpjd26@gmail.com) or Michelle Parekh (michelleparekh@mac.com) with queries.
+        </span>
+      </p>
     </section>
   </Layout>
 )

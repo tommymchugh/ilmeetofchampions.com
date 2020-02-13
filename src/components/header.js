@@ -5,7 +5,7 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#cdd9ffe6`,
+      background: `rgb(31, 43, 83)`,
       marginBottom: `1.45rem`,
       width: `100%`,
       zIndex: `1000`,
@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
     <li><a href="#faq">FAQ</a></li>
     <li><a href="#north">North Lawndale</a></li>
     <li><a href="#support">Sponsorship</a></li>
-    <li><a href="#meet-info">Meet Info</a></li>
+    <li><a href="#meet-info">Registration</a></li>
     <li><a href="#venue">Venue</a></li>  
   </ul>
   </header>
