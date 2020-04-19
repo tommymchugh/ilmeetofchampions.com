@@ -789,7 +789,35 @@ main {
   letter-spacing: 3px;
   font-weight: 300;
   margin-top: 80px;
+}
+
+.register-now {
+  display: block;
+  margin: 30px auto;
+  width: fit-content;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #e96c6d;
+  font-size: 20px;
+  border: 1.5px solid #e96c6d;
+  padding-left: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 4px;
+  padding-right: 15px;
+  transition: all .3s;
   margin-bottom: 80px;
+}
+
+.short {
+  margin-top: 0px !important;
+  margin-bottom: 20px !important;
+}
+
+.register-now:hover {
+  background: #e96c6d;
+  color: #e9efff;
 }
 
 .venue-info {

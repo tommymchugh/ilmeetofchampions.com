@@ -69,6 +69,7 @@ const IndexPage = () => (
     
     <section className="header-info">
       <h1>We are assembling the top athletes from every class to compete to be the true champion of Illinois Track & Field.</h1>
+      <a className="register-now" href="https://www.directathletics.com/meets/track/65436.html">Register Now!</a>
     </section>
     
     <section id="venue" className="venue-info">
@@ -110,8 +111,7 @@ const IndexPage = () => (
       <div className="fill">
         <h1 className="header-text">Meet Info & Registration</h1>
         <h2>
-          <span className="stay-tuned">Stay tuned for schedule and registration information for the 2020 edition of the Illinois Meet of Champions.</span>
-          The meet will field championship competitions for every high school track event including: 
+          <a className="register-now short" href="https://www.directathletics.com/meets/track/65436.html">Register Now!</a>
           <span className="events">100, 110 Hurdles, 400, 800, 3200, Pole Vault, High Jump, Long Jump, and Shot Put.</span>
           Championship invitations will be selected using the MileSplit Illinois Top Times list for each event.
           <br />
