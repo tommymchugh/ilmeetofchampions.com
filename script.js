@@ -1,1 +1,0 @@
-document.addEventListener('touchstart', () => {}, {passive: true});
