@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, withPrefix } from "gatsby"
 
 function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
@@ -71,6 +71,7 @@ function SEO({ description, lang, meta, title }) {
       <style>
       {`@import url('https://fonts.googleapis.com/css?family=Barlow:300,400,500,700&display=swap');`}
       </style>
+        <script src={withPrefix('script.js')} type="text/javascript" />
       </Helmet>
   )
 }
