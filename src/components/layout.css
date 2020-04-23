@@ -11,6 +11,49 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
 }
+
+@media (max-width: 1178px) {
+  .wall {
+    overflow: hidden !important;
+  }
+  .wall > .logo > h1 {
+    text-align: center;
+  }
+
+  .wall > .logo > img {
+    margin: 0 auto !important;
+    display: block !important;
+  }
+  .wall > .logo {
+    padding-left: 25px;
+    padding-right: 25px;
+    bottom: 0 !important;
+    position: relative !important;
+    margin-left: 0 !important;
+    margin: 90px auto !important;
+    display: block !important;
+  }
+}
+
+@media (max-width: 592px) {
+  .cover > div {
+    display: none;
+  }
+  .wall > .logo {
+    top: 130px !important;
+  }
+
+  .wall {
+    max-height: 540px !important;
+  }
+}
+
+@media (max-width: 516px) {
+  .wall > .logo > h1 {
+    font-size: 21px !important;
+  }
+}
+
 article,
 aside,
 details,
@@ -699,7 +742,7 @@ main {
   }
 }
 
-@media (max-width: 546px) { 
+/*@media (max-width: 546px) { 
   .wall > img {
     height: 45px;
     left: 0;
@@ -756,7 +799,7 @@ main {
   .wall > .logo > h1 {
     font-size: 13px;
   }
-}
+}*/
 
 @media (max-width: 364px) { 
   header > ul > li {
