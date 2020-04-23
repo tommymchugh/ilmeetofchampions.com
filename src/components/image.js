@@ -31,7 +31,7 @@ const Image = () => {
 }*/
 
 const LogoImage = () => {
-  return <img src={`${logoImg}`} />
+  return <img src={`${logoImg}`} alt="Illinois Meet of Champions" />
 }
 
 export default LogoImage

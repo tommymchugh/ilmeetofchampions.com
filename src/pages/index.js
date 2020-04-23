@@ -52,7 +52,7 @@ const IndexPage = () => (
         <LogoImage />
       </div>
       
-      <img src={`${underArmourLogo}`}/>
+      <img alt="Sponsored by Under Armour" src={`${underArmourLogo}`}/>
     
       <div className="cover" style={{
         zIndex: `1`
@@ -70,6 +70,13 @@ const IndexPage = () => (
     <section className="header-info">
       <h1>We are assembling the top athletes from every class to compete to be the true champion of Illinois Track & Field.</h1>
       <a className="register-now" href="https://il.milesplit.com/meets/381424/registration">Register Now!</a>
+    </section>
+
+    <section className="covid-alert">
+      <h1>COVID-19 Update</h1>
+      <p>The meet date is subject to change. 
+         The meet date may be moved depending on state and local mandates regarding gathering in groups and sheltering in place. 
+         <span className="bold">Our intention is to host a meet when deemed safe to do so.</span></p>
     </section>
     
     <section id="venue" className="venue-info">
@@ -110,8 +117,8 @@ const IndexPage = () => (
       </div>
       <div className="fill">
         <h1 className="header-text">Meet Info & Registration</h1>
+        <a className="register-now short" href="https://il.milesplit.com/meets/381424/registration">Register Now!</a>
         <h2>
-          <a className="register-now short" href="https://il.milesplit.com/meets/381424/registration">Register Now!</a>
           <span className="events">100, 110 Hurdles, 400, 800, 1 Mile, 3200, Pole Vault, High Jump, Long Jump, and Shot Put.</span>
           Championship invitations will be selected using the MileSplit Illinois Top Times list for each event.
           <br />
@@ -125,13 +132,13 @@ const IndexPage = () => (
       backgroundImage: `url(${hurdlesImage})`
     }} className="sponsors-info">
       <h1 className="header-text">Sponsors & Support</h1>
-      <a href="https://www.underarmour.com/"><img className="under-armour-logo" src={`${underArmourLogoSolo}`}/></a>
+      <a href="https://www.underarmour.com/"><img alt="Under Armour" className="under-armour-logo" src={`${underArmourLogoSolo}`}/></a>
       <h2>Under Armour will be sponsoring the meet with gear for the championship athletes. Details on gear coming soon!</h2>
-      <a href="https://www.fleetfeet.com/"><img className="fleet-feet-logo" src={`${fleetFeetLogo}`}/></a>
+      <a href="https://www.fleetfeet.com/"><img alt="Fleet Feet Sports" className="fleet-feet-logo" src={`${fleetFeetLogo}`}/></a>
       <h2>Fleet Feet Sports will also be supporting with hydration at the meet as well as additional items to be announced.</h2>
       <div className="other-sponsors">
-        <a href="https://www.athletic.net/TrackAndField/School.aspx?SchoolID=32397"><img className="chicago-speed" src={`${chicagoSpeedLogo}`}/></a>
-        <a href="http://www.districttrack.com/"><img className="dtc" src={`${dtcLogo}`}/></a>
+        <a href="https://www.athletic.net/TrackAndField/School.aspx?SchoolID=32397"><img className="chicago-speed" alt="Chicago Speed" src={`${chicagoSpeedLogo}`}/></a>
+        <a href="http://www.districttrack.com/"><img className="dtc" src={`${dtcLogo}`} alt="District Track Club"/></a>
       </div>
       <h2>Chicago Speed Track Club and District Track Club will both be supporting the event and will have athletes at the meet.</h2>
     </section>

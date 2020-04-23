@@ -791,6 +791,32 @@ main {
   margin-top: 80px;
 }
 
+.covid-alert {
+  background: #efd3a7;
+  padding-bottom: 55px;
+  margin-top: -49px;
+}
+
+.covid-alert > h1 {
+  padding-top: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(148, 42, 44);
+}
+
+.covid-alert > p {
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  color: #5f2828;
+}
+
+.covid-alert > p > .bold {
+  font-weight: bold;
+  display: block;
+  margin-top: 12px;
+}
+
 .register-now {
   display: block;
   margin: 30px auto;
@@ -798,9 +824,9 @@ main {
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
-  color: #e96c6d;
+  color: #b34748;
   font-size: 20px;
-  border: 1.5px solid #e96c6d;
+  border: 1.5px solid #b34748;
   padding-left: 15px;
   padding-top: 7px;
   padding-bottom: 7px;
@@ -812,11 +838,11 @@ main {
 
 .short {
   margin-top: 0px !important;
-  margin-bottom: 20px !important;
+  margin-bottom: 0px !important;
 }
 
 .register-now:hover {
-  background: #e96c6d;
+  background: #b34748;
   color: #e9efff;
 }
 
@@ -830,7 +856,7 @@ main {
 }
 
 .venue-info > h1 {
-  color: #fff;
+  color: #2d395e;
 }
 
 .header-text {
@@ -848,7 +874,7 @@ main {
 
 .venue-info > .link:hover {
   color: #c0cbef;
-  background: #e96c6d;
+  background: #461818;
 }
 
 header {
@@ -896,12 +922,12 @@ header > ul > li > a {
   width: 138px;
   margin: 0 auto;
   padding-top: 7px;
-  border: 1px solid #e96c6d;
+  border: 1px solid #461818;
   padding-bottom: 7px;
   text-decoration: none;
   border-radius: 3px;
   font-family: 'Barlow', sans-serif;
-  color: #e96c6d;
+  color: #461818;
   transition: all .4s;
   font-size: 16.5px;
   margin-bottom: 5px;
@@ -912,7 +938,7 @@ header > ul > li > a {
   margin: 0 auto;
   max-width: 1000px;
   font-size: 18px;
-  color: #fff;
+  color: #2d395e;
   text-align: center;
   line-height: 33px;
   text-transform: uppercase;
@@ -931,7 +957,7 @@ header > ul > li > a {
 }
 
 .meet-info-results > div > h1 {
-  color: #57709a;
+  color: #3a486b;
   font-size: 28px;
 }
 
@@ -939,7 +965,7 @@ header > ul > li > a {
   margin: 0 auto;
   max-width: 810px;
   font-size: 13px;
-  color: #57709a;
+  color: #3a486b;
   text-align: left;
   line-height: 33px;
   text-transform: uppercase;
@@ -973,7 +999,7 @@ footer > p {
   
 }
 
-.meet-info-results > div > h2 > .events {
+.meet-info-results > label > div > h2 > .events {
   display: block;
   font-weight: 300;
   margin-bottom: 13px;
@@ -1084,26 +1110,26 @@ button {
   color: #310707;
 }
 
-footer > div {
+footer > label > div {
   max-width: 360px;
   margin: 0 auto;
 }
 
-footer > div > button:hover {
-  background: #4a5e9c;
+footer > label > div > button:hover {
+  background: #9aaeea;
   color: #121727;
 }
 
-footer > div > button {
+footer > label > div > button {
   margin: 17px auto;
   display: block;
-  color: #4a5e9c;
+  color: #9aaeea;
   font-family: 'Barlow', sans-serif;
   width: 139px;
   background: transparent;
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px solid #4a5e9c;
+  border: 1px solid #9aaeea;
   border-radius: 3px;
   transition: all .4s;
 }
@@ -1119,7 +1145,7 @@ footer > .copyright {
 }
 
 footer > .builtby {
-  color: #3e496b;
+  color: #a7bbf7;
   margin-bottom: 0;
   font-size: 15px;
   padding-bottom: 15px;
@@ -1133,13 +1159,13 @@ footer > h1 {
   font-size: 30px !important;
 }
 
-footer > div > div {
+footer > label > div > div {
   font-family: 'Barlow', sans-serif;
   padding-bottom: 10px;
   text-align: center;
 }
 
-footer > div > input {
+footer > label > div > input {
   font-family: 'Barlow', sans-serif;
   color: #333;
   outline: none;
@@ -1158,6 +1184,10 @@ footer > div > input {
   border-bottom: 0.3rem solid transparent;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+footer > label > p {
+  display: none;
 }
 
 .sponsors-info > h2 {
