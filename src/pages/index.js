@@ -47,7 +47,7 @@ const IndexPage = () => (
     }}>
       <div className="logo">
         <h1>
-          June 6, 2020 <span>Hope Academy Stadium</span>
+          June 27, 2020 <span>Hope Academy Stadium</span>
         </h1>
         <LogoImage />
       </div>
@@ -69,7 +69,7 @@ const IndexPage = () => (
     
     <section className="header-info">
       <h1>We are assembling the top athletes from every class to compete to be the true champion of Illinois Track & Field.</h1>
-      <a className="register-now" href="https://www.directathletics.com/meets/track/65436.html">Register Now!</a>
+      <a className="register-now" href="https://il.milesplit.com/meets/381424/registration">Register Now!</a>
     </section>
     
     <section id="venue" className="venue-info">
@@ -111,8 +111,8 @@ const IndexPage = () => (
       <div className="fill">
         <h1 className="header-text">Meet Info & Registration</h1>
         <h2>
-          <a className="register-now short" href="https://www.directathletics.com/meets/track/65436.html">Register Now!</a>
-          <span className="events">100, 110 Hurdles, 400, 800, 3200, Pole Vault, High Jump, Long Jump, and Shot Put.</span>
+          <a className="register-now short" href="https://il.milesplit.com/meets/381424/registration">Register Now!</a>
+          <span className="events">100, 110 Hurdles, 400, 800, 1 Mile, 3200, Pole Vault, High Jump, Long Jump, and Shot Put.</span>
           Championship invitations will be selected using the MileSplit Illinois Top Times list for each event.
           <br />
           There will be a limited number of spaces available for an exhibition 2k steeplechase and coed 4x400.
