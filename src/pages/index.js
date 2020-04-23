@@ -132,13 +132,13 @@ const IndexPage = () => (
       backgroundImage: `url(${hurdlesImage})`
     }} className="sponsors-info">
       <h1 className="header-text">Sponsors & Support</h1>
-      <a href="https://www.underarmour.com/"><img alt="Under Armour" className="under-armour-logo" src={`${underArmourLogoSolo}`}/></a>
+      <a href="https://www.underarmour.com/"><img alt="Under Armour" loading="lazy" className="under-armour-logo" src={`${underArmourLogoSolo}`}/></a>
       <h2>Under Armour will be sponsoring the meet with gear for the championship athletes. Details on gear coming soon!</h2>
-      <a href="https://www.fleetfeet.com/"><img alt="Fleet Feet Sports" className="fleet-feet-logo" src={`${fleetFeetLogo}`}/></a>
+      <a href="https://www.fleetfeet.com/"><img alt="Fleet Feet Sports" loading="lazy" className="fleet-feet-logo" src={`${fleetFeetLogo}`}/></a>
       <h2>Fleet Feet Sports will also be supporting with hydration at the meet as well as additional items to be announced.</h2>
       <div className="other-sponsors">
-        <a href="https://www.athletic.net/TrackAndField/School.aspx?SchoolID=32397"><img className="chicago-speed" alt="Chicago Speed" src={`${chicagoSpeedLogo}`}/></a>
-        <a href="http://www.districttrack.com/"><img className="dtc" src={`${dtcLogo}`} alt="District Track Club"/></a>
+        <a href="https://www.athletic.net/TrackAndField/School.aspx?SchoolID=32397"><img loading="lazy" className="chicago-speed" alt="Chicago Speed" src={`${chicagoSpeedLogo}`}/></a>
+        <a href="http://www.districttrack.com/"><img className="dtc" loading="lazy" src={`${dtcLogo}`} alt="District Track Club"/></a>
       </div>
       <h2>Chicago Speed Track Club and District Track Club will both be supporting the event and will have athletes at the meet.</h2>
     </section>
