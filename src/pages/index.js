@@ -188,8 +188,6 @@ const IndexPage = () => (
         </span>
         <span><span>Timing of Events</span>Stay tuned for a detailed meet schedule!
         </span>
-        <span><span>Accommodations in the Area</span>Stay tuned.  The Meet of Champions is working with hotels in the area for group rates.
-        </span>
         <span><span>Concession Stand</span>There will be a concession stand run by Hope Academy.  No food or drinks, with the exception of water, will be allowed on the infield.
         </span>
         <span><span>Bathrooms / Locker Rooms</span>There will be bathroom facilities at the track but these will be limited.  There are no locker rooms.
