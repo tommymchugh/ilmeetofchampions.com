@@ -163,7 +163,7 @@ const IndexPage = () => (
 
         <span><span>Spikes</span>1/4 inch only</span> 
 
-        <span><span>Awards</span> Every athlete in a championship race will receive Under Armour gear including competition attire, shoes, backpacks and other gear.  Additionally, top three in each event will receive a medal. 
+        <span><span>Awards</span> Every athlete in a championship race will receive an Under Armour backpack.
         </span>
         <span><span>Registration</span>Stay tuned for information regarding registration for 2020 IL Meet of Champions.  All registration will be done on-line.  Payment will not be accepted at the meet.  There will be no refunds.
         </span>
