@@ -47,7 +47,7 @@ const IndexPage = () => (
     }}>
       <div className="logo">
         <h1>
-          June 27, 2020 <span>Hope Academy Stadium</span>
+          Monday July 27th through Saturday August 1st <span>Hope Academy Stadium</span>
         </h1>
         <LogoImage />
       </div>
@@ -74,9 +74,14 @@ const IndexPage = () => (
 
     <section className="covid-alert">
       <h1>COVID-19 Update</h1>
-      <p>The meet date is subject to change. 
-         The meet date may be moved depending on state and local mandates regarding gathering in groups and sheltering in place. 
-         <span className="bold">Our intention is to host a meet when deemed safe to do so.</span></p>
+      <p>Due to the likely restrictions the state of IL will be under in Late July we are changing the format of the meet from a one day meet to a multiday meet.
+          The  meet date is now changed from June 27th to the last week in July and first day of August. <br /> 
+          We will host 2 events per day: <br />
+          • 1st event at 3:30PM<br />
+          • 2nd event at 6:00PM<br />
+          • 50 athletes per event<br />
+          • 25 athletes per gender<br />
+          There will be a time gap between events to allow for one group of 50 to clear the venue before the next group of 50 arrive.
     </section>
     
     <section id="venue" className="venue-info">
@@ -119,11 +124,13 @@ const IndexPage = () => (
         <h1 className="header-text">Meet Info & Registration</h1>
         <a className="register-now short" href="https://il.milesplit.com/meets/381424/registration">Register Now!</a>
         <h2>
-          <span className="events">100, 110 Hurdles, 400, 800, 1 Mile, 3200, Pole Vault, High Jump, Long Jump, and Shot Put.</span>
-          Championship invitations will be selected using the MileSplit Illinois Top Times list for each event.
-          <br />
-          There will be a limited number of spaces available for an exhibition 2k steeplechase and coed 4x400.
-          <br />More details to come!
+          <span className="events">Monday July 27th - 3:00PM 100m dash / 6:00PM 800m Run<br />
+            Tuesday July 28th - 3:00PM 110m/100m hurdles / 6:00PM 400m Dash<br />
+            Wednesday July 29th -  3:00 Pole vault / 6:00PM 3200m<br />
+            Thursday July 30th - 3:00 High Jump / 6:00PM Long Jump<br />
+            Friday July 31st - 3:00PM Shot put / 6:00PM 2k Steeplechase<br />
+            Saturday August 1st - 1:00PM Girls Mile / 3:00PM Boys Mile<br />
+            The mile will allow for 50 athletes per gender
         </h2>
       </div>
     </section>
@@ -133,7 +140,7 @@ const IndexPage = () => (
     }} className="sponsors-info">
       <h1 className="header-text">Sponsors & Support</h1>
       <a href="https://www.underarmour.com/"><img alt="Under Armour" loading="lazy" className="under-armour-logo" src={`${underArmourLogoSolo}`}/></a>
-      <h2>Under Armour will be sponsoring the meet with gear for the championship athletes. Details on gear coming soon!</h2>
+      <h2>Under Armour will be sponsoring the meet with gear for the championship athletes.</h2>
       <a href="https://www.fleetfeet.com/"><img alt="Fleet Feet Sports" loading="lazy" className="fleet-feet-logo" src={`${fleetFeetLogo}`}/></a>
       <h2>Fleet Feet Sports will also be supporting with hydration at the meet as well as additional items to be announced.</h2>
       <div className="other-sponsors">
@@ -162,33 +169,24 @@ const IndexPage = () => (
         <span><span>Timing</span>Fully Automatic Timing (FAT) provided by Illinois Prep Top Timing</span>
 
         <span><span>Spikes</span>1/4 inch only</span> 
-
-        <span><span>Awards</span> Every athlete in a championship race will receive an Under Armour backpack.
-        </span>
-        <span><span>Registration</span>Stay tuned for information regarding registration for 2020 IL Meet of Champions.  All registration will be done on-line.  Payment will not be accepted at the meet.  There will be no refunds.
-        </span>
-        <span><span>Open Sections</span>The 2020 meet will include open sections of several sprint and distance events.  Any high school athlete in IL is eligible to enter, though field size will be limited, and the athletes with the top times (based upon Milesplit times) in those events will gain entry to the Championship Section.
-        </span>
-        <span><span>Championship Section</span>The IL Meet of Champions is comprised of the top section in each distance and will be selected based upon top times from the season.  These races are the marquee events and will be used to crown the best in IL.
-        </span>
-        <span><span>Heatsheets</span>Heatsheets will be posted by 8:00pm the Thursday preceding the race.  They will be posted both on this site and on Milesplit.  We encourage you to print a copy as we will only have a small number available on race day.  
-        </span>
-        <span><span>Admission</span>TBD
+        <span><span>Heatsheets</span>Heatsheets will be posted by 8:00pm the Saturday preceding the race.  They will be posted both on this site and on Milesplit.  We encourage you to print a copy as we will only have a small number available on race day.  
         </span>
         <span><span>Parking</span>There will be limited parking in secure lots for $5.00 on site and immediately to the South of the track. Free Street parking is also available.
         </span>
         <span><span>Age Groups</span>High School only
         </span>
-        <span><span>Order of Events</span>100m, 110m Hurdles, 400m, 800m, 2km steeplechase, 3200m, and co-ed 4x400m relay <br />
-        For each event the open race will compete first and the championship race will follow afterwards if there is one for that event.
+        <span><span>Order of Events</span>Tuesday July 28th - 3:00PM 110m/100m hurdles / 6:00PM 400m Dash<br />
+            Wednesday July 29th -  3:00 Pole vault / 6:00PM 3200m<br />
+            Thursday July 30th - 3:00 High Jump / 6:00PM Long Jump<br />
+            Friday July 31st - 3:00PM Shot put / 6:00PM 2k Steeplechase<br />
+            Saturday August 1st - 1:00PM Girls Mile / 3:00PM Boys Mile<br />
+            The mile will allow for 50 athletes per gender
         </span>
         <span><span>Packet Pickup</span>Packets will be picked up at meet.  A table will be set up as you enter the track with bibs. Packets must be picked up 30 minutes prior to the start of the event.  A photo ID or current USATF card is required for all individual athletes and / or parents picking up a packet.
         </span>
-        <span><span>Waiver and Release</span>A waiver will be completed and signed on-line prior to packet pickup.  More information to come on this topic.
+        <span><span>Waiver and Release</span>Waiver to be completed at time of registration.
         </span>
         <span><span>Timing of Events</span>Stay tuned for a detailed meet schedule!
-        </span>
-        <span><span>Concession Stand</span>There will be a concession stand run by Hope Academy.  No food or drinks, with the exception of water, will be allowed on the infield.
         </span>
         <span><span>Bathrooms / Locker Rooms</span>There will be bathroom facilities at the track but these will be limited.  There are no locker rooms.
         </span>
