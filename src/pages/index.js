@@ -81,7 +81,7 @@ const IndexPage = () => (
           • 2nd event at 6:00PM<br />
           • 50 athletes per event<br />
           • 25 athletes per gender<br />
-          There will be a time gap between events to allow for one group of 50 to clear the venue before the next group of 50 arrive.
+          There will be a time gap between events to allow for one group of 50 to clear the venue before the next group of 50 arrive.</p>
     </section>
     
     <section id="venue" className="venue-info">
@@ -130,7 +130,7 @@ const IndexPage = () => (
             Thursday July 30th - 3:00 High Jump / 6:00PM Long Jump<br />
             Friday July 31st - 3:00PM Shot put / 6:00PM 2k Steeplechase<br />
             Saturday August 1st - 1:00PM Girls Mile / 3:00PM Boys Mile<br />
-            The mile will allow for 50 athletes per gender
+            The mile will allow for 50 athletes per gender</span>
         </h2>
       </div>
     </section>
