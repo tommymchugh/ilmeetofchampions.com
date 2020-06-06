@@ -77,7 +77,7 @@ const IndexPage = () => (
       <p>Due to the likely restrictions the state of IL will be under in Late July we are changing the format of the meet from a one day meet to a multiday meet.
           The  meet date is now changed from June 27th to the last week in July and first day of August. <br /> 
           We will host 2 events per day: <br />
-          • 1st event at 3:30PM<br />
+          • 1st event at 3:00PM<br />
           • 2nd event at 6:00PM<br />
           • 50 athletes per event<br />
           • 25 athletes per gender<br />
