@@ -175,7 +175,9 @@ const IndexPage = () => (
         </span>
         <span><span>Age Groups</span>High School only
         </span>
-        <span><span>Order of Events</span>Tuesday July 28th - 3:00PM 110m/100m hurdles / 6:00PM 400m Dash<br />
+        <span><span>Order of Events</span> 
+            Monday July 27th - 3:00PM 100m dash / 6:00PM 800m Run<br />
+            Tuesday July 28th - 3:00PM 110m/100m hurdles / 6:00PM 400m Dash<br />
             Wednesday July 29th -  3:00 Pole vault / 6:00PM 3200m<br />
             Thursday July 30th - 3:00 High Jump / 6:00PM Long Jump<br />
             Friday July 31st - 3:00PM Shot put / 6:00PM 2k Steeplechase<br />
