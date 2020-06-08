@@ -77,7 +77,7 @@ const IndexPage = () => (
       <p>Due to the likely restrictions the state of IL will be under in Late July we are changing the format of the meet from a one day meet to a multiday meet.
           The  meet date is now changed from June 27th to the last week in July and first day of August. <br /> 
           We will host 2 events per day: <br />
-          • 1st event at 3:30PM<br />
+          • 1st event at 3:00PM<br />
           • 2nd event at 6:00PM<br />
           • 50 athletes per event<br />
           • 25 athletes per gender<br />
@@ -175,7 +175,9 @@ const IndexPage = () => (
         </span>
         <span><span>Age Groups</span>High School only
         </span>
-        <span><span>Order of Events</span>Tuesday July 28th - 3:00PM 110m/100m hurdles / 6:00PM 400m Dash<br />
+        <span><span>Order of Events</span> 
+            Monday July 27th - 3:00PM 100m dash / 6:00PM 800m Run<br />
+            Tuesday July 28th - 3:00PM 110m/100m hurdles / 6:00PM 400m Dash<br />
             Wednesday July 29th -  3:00 Pole vault / 6:00PM 3200m<br />
             Thursday July 30th - 3:00 High Jump / 6:00PM Long Jump<br />
             Friday July 31st - 3:00PM Shot put / 6:00PM 2k Steeplechase<br />
