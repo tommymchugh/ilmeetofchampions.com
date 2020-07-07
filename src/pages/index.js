@@ -85,9 +85,9 @@ const IndexPage = () => (
           • 50 athletes per event<br />
           • 25 athletes per gender<br />
           There will be a time gap between events to allow for one group of 50 to clear the venue before the next group of 50 arrive.</p>
-          <a href="files/MOC_Flier.pdf">Download the Meet of Champions Flier</a><br/>
-          <a href="files/MMR_Flier.pdf">Download the Map My Run Competition Flier</a><br/>
-          <a href="files/MOC_Rules.pdf">Download the Meet of Champions Rules</a><br/>
+          <a href="files/MOC_Flier.pdf">Download the Meet of Champions Flier</a>
+          <a href="files/MMR_Flier.pdf">Download the Map My Run Competition Flier</a>
+          <a href="files/MOC_Rules.pdf">Download the Meet of Champions Rules</a>
     </section>
     
     <section id="venue" className="venue-info">
